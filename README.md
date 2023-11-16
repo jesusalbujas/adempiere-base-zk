@@ -5,7 +5,7 @@
     <img src="https://badgen.net/badge/Java/11/orange" alt="Java">
   </a>
   </a>
-  <a href="https://github.com/adempiere/zk-ui/blob/master/LICENSE">
+  <a href="https://github.com/JesusAlbujas/adempiere-base/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-GNU/GPL%20(v2)-blue" alt="License">
   </a>
   <a href="https://github.com/adempiere/zk-ui/releases/latest">

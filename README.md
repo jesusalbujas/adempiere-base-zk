@@ -26,6 +26,14 @@ This repository is based on the official [adempiere zk](https://github.com/ademp
 Docker Compose version v2.16.0
 ```
 
+- If you need to install [Docker click here](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
+
+- Install Git
+
+```shell
+- sudo apt-get install git 
+```
+
 ## Run it
 
 1. Just go to `docker-compose` folder and run it

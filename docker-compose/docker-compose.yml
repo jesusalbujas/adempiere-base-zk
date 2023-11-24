@@ -20,7 +20,7 @@ services:
     environment:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     networks:
-      - adempiere_network
+      - ad_network
             
   adempiere-zk:
     image: openls/adempiere-zk-ui:jetty
@@ -34,10 +34,10 @@ services:
       adempiere.db:
         condition: service_healthy
     networks:
-      - adempiere_network 
+      - ad_network 
       
 networks:
-  adempiere_network:
+  ad_network:
     name: ${ADEMPIERE_NETWORK}
     
 volumes:

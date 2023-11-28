@@ -20,10 +20,10 @@ services:
     environment:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     networks:
-      - ad_network
+      - adempiere_fple_network
             
   adempiere-zk:
-    image: openls/adempiere-zk-ui:jetty
+    image: registry.digitalocean.com/erpya/adempiere-cloud:rs-56.6
     container_name: ${ADEMPIERE_NAME}
     restart: ${GENERIC_RESTART}
     ports:
@@ -34,7 +34,7 @@ services:
       adempiere.db:
         condition: service_healthy
     networks:
-      - ad_network 
+      - adempiere_fple_network 
       
 networks:
   ad_network:
